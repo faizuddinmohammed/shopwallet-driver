@@ -1,0 +1,140 @@
+name: fuodz
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.6.5+46
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  adaptive_theme: ^3.1.0
+  args: ^2.3.0
+  assets_audio_player: ^3.0.6
+  awesome_notifications: ^0.6.21
+  basic_utils: ^3.9.0
+  cached_network_image: ^3.2.1
+  circular_countdown_timer: ^0.2.0
+  cloud_firestore: ^4.1.0
+  colornames: ^0.1.0
+  contained_tab_bar_view: ^0.8.0
+  cool_alert: ^1.1.0
+  country_picker: ^2.0.15
+  cupertino_icons: ^1.0.5
+  currency_formatter: ^1.2.1
+  custom_faqs:
+    git:
+      url: https://github.com/ambrosethebuild/custom_faqs
+      ref: main
+  dio: ^4.0.6
+  dio_http_cache_lts: ^0.4.0
+  dotted_line: ^3.1.0
+  double_back_to_close: ^2.0.0
+  file_picker: 5.0.0
+  file_sizes: ^1.0.6
+  firebase_auth: ^4.1.3
+  firebase_core: ^2.3.0
+  firebase_crashlytics: ^3.0.6
+  firebase_messaging: ^14.1.1
+  firestore_chat: ^0.0.3
+  fl_location: ^1.2.2
+  flag: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_background: ^1.1.0
+  flutter_fgbg: ^0.1.0
+  flutter_form_builder: ^7.3.1
+  flutter_icons: ^1.0.0+1
+  flutter_image_compress: ^1.1.0
+  flutter_inappwebview: 5.7.1
+  flutter_isolate: ^2.0.4
+  flutter_localizations:
+    sdk: flutter
+  flutter_overboard: ^3.1.1
+  flutter_polyline_points: ^1.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_staggered_animations: ^1.0.0
+  flutter_svg: ^1.1.1+1
+  flutter_typeahead: ^4.0.0
+  fluttertoast: ^8.0.8
+  geolocator: ^9.0.2
+  georange: ^1.0.0
+  google_fonts: ^3.0.1
+  google_maps_flutter: ^2.1.8
+  google_nav_bar: ^5.0.3
+  hand_signature: ^2.3.0+1
+  image_picker: ^0.8.5+3
+  in_app_review: ^2.0.4
+  inspection: ^0.0.13
+  intl: ^0.17.0
+  jiffy: ^5.0.0
+  line_icons: ^2.0.1
+  localize_and_translate: ^4.1.1
+  map_launcher: ^2.2.3
+  measure_size: ^3.0.1
+  package_info: ^2.0.2
+  permission_handler: ^10.2.0
+  pin_code_fields: ^7.4.0
+  pretty_dio_logger: ^1.1.1
+  pull_to_refresh_flutter3: ^2.0.1
+  qr_code_scanner: ^1.0.1
+  random_string: ^2.3.1
+  rolling_switch: ^0.0.2
+  schedulers: ^0.3.1
+  shared_preferences: ^2.0.15
+  singleton: ^0.0.3-nullsafety
+  sliding_up_panel: ^2.0.0+1
+  smooth_page_indicator: ^1.0.0+2
+  stacked: ^2.3.12
+  supercharged: ^2.1.1
+  swipe_button_widget: ^0.0.2
+  swipebuttonflutter: ^1.0.0
+  ticketview: ^1.0.0
+  upgrader: ^4.4.0
+  url_launcher: ^6.1.4
+  velocity_x: ^3.5.1
+
+# dependency_overrides:
+#   rxdart: ^0.27.4
+#   flutter_polyline_points: ^1.0.0
+#   yaml: ^3.1.0
+#   assets_audio_player: ^3.0.4+4
+#   plugin_platform_interface: ^2.0.0
+#   image_picker_android: 0.8.4+13
+dev_dependencies:
+  flutter_application_id: ^2.0.0-dev
+  flutter_launcher_icons: ^0.9.3
+  flutter_native_splash: ^2.2.4
+  flutter_test:
+    sdk: flutter
+  translator: ^0.1.7
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_foreground: "assets/images/app_icon.png"
+  adaptive_icon_background: "#5e17eb"
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/json/
+    - assets/lang/
